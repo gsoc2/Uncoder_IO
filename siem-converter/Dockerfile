@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.13.0a3-alpine
 RUN apk add --update --no-cache linux-headers build-base python3-dev libffi-dev
 WORKDIR /siem_converter
 COPY . .
